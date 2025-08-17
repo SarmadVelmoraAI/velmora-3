@@ -6,7 +6,7 @@ frontend:
         - npm ci
     build:
       commands:
-        - npm run build:static
+        - npm run build
   artifacts:
     baseDirectory: out
     files:
@@ -14,5 +14,3 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
-
-
