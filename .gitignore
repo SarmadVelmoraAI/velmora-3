@@ -1,0 +1,10 @@
+node_modules
+.next
+.env
+package-lock.json
+dist
+build
+outnode_modules
+.next
+.DS_Store
+.env*
